@@ -381,6 +381,7 @@ def main(ms_creds : str):
     open('promos.txt','a').write(link+'\n')
 init()
 accs = open('accs.txt').read().splitlines()
+Log.info("Made by Notlit , Fixed by SparkBoosts , If any issues dm me x74a.. Hope you like the tool.")
 thread_amt = int(input(Fore.LIGHTBLUE_EX + 'Enter amount of threads : '))
 thread_list = []
 if __name__ == "__main__":
